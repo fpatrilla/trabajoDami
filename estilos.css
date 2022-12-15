@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    padding: 0.5rem;
+
+}    
+
+.encabezado_menu{
+    
+    border-color: darkgray;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+.head_img
+{
+width: 100%;
+}
+
+body  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: azure;
+    background-image:url(./img/fondo5.jpg);
+
+}
+.principal{
+    
+    padding: 1rem;
+}
+footer{
+    background-color: dimgray;
+    height: 20vh;
+}
+.rece_btn {
+    width: 50%;
+    padding: 0.5rem;
+}
+.recetas_img{
+    width: 90%;
+}
+@media (min-width:576px){
+    .encabezado_menu{
+        display: flex;
+    }
+}
+    
+        
+    
+ 
+@media (min-width:768px){
+    .encabezado_menu{
+        display: flex;
+    }
+}
+    
+        
+    
+
+@media (min-width:992px){
+    .encabezado_menu{
+        display: flex;
+    }
+}
+    
+        
+    
